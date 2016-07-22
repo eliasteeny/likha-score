@@ -2,7 +2,7 @@
 #include<string>
 #include<iomanip>
 using namespace std;
-void main()
+int main()
 
 { 
 	int a, b, c, d, t = 0, y = 0, u = 0, i = 0, k = 0, f;
