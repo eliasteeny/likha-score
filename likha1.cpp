@@ -4,9 +4,9 @@
 using namespace std;
 int main()
 
-{ 
+{
 	int a, b, c, d, t = 0, y = 0, u = 0, i = 0, k = 0, f;
-   
+
 	string ab, ac, ae, ad;
 
     cout << "FIRST NAME :";
@@ -50,7 +50,7 @@ int main()
 		 cin >> d;
 	 }
 	 k++;
- 
+
  }while(a+b+c+d!=36);
 f = 0;
 if (a + b + c == 0){ d++; f = 1; }
@@ -64,8 +64,8 @@ if (a + c + d == 0){ b++; f = 4; }
 	i=i+d;
 	k = 0;
 
-		
-	
+
+
 	cout <<"------------------------------"<<endl << endl << endl  << endl <<setw(15)<< ab << " = " << t;
 	if (f == 2)
 		cout << " (Added 1 for getting a score = 36)";
@@ -79,15 +79,13 @@ if (a + c + d == 0){ b++; f = 4; }
 			if (f==1)
 				cout << " (Added 1 for getting a score = 36)";
 			cout << endl  << endl  << endl  << endl << "------------------------------"<<endl;
-	
- } 
- 
+
+ }
+
  if( ( t>=101 && t>i && t>y ) || ( u>=101 && u>i && u>y ) )
 	 cout<<ab<<" and "<<ae<<" Lost";
  if ((i >= 101 && i>t && i>u) || (y >= 101 && y>t && y>u))
 	 cout<<ac<<" and "<<ad<<" Lost";
  cout << endl;
- system("pause");
- 
+ return 0;
 }
-
